@@ -19,12 +19,20 @@ import './App.css';
 
 
 // import Style from './reactprac.js/style.js'
+// import User from './reactprac.js/prop.js'
+// function App() {
+//   return(
+//    <User name="berry" age="100" />
+//   )
+// }
 
-import User from './reactprac.js/prop.js'
+
+// import Parent from './reactprac.js/parent.js'
+import Fru from './reactprac.js/function.js'
+
 function App() {
   return(
-   <User name="berry" age="100" />
-  )
+    <Fru/>
+    )
 }
-
 export default App;
