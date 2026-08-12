@@ -28,11 +28,16 @@ import './App.css';
 
 
 // import Parent from './reactprac.js/parent.js'
-import Fru from './reactprac.js/function.js'
-
+// import Fru from './reactprac.js/function.js'
+//  import Child from './reactprac.js/day13.js'
+// import Cat from './reactprac.js/fragment.js'
+// import Event from './reactprac.js/event.js'
+// import State from './reactprac.js/day16.js'
+// import State from './reactprac.js/day17.js'
+import State from './reactprac.js/day18.js'
 function App() {
   return(
-    <Fru/>
+    <State/>
     )
 }
 export default App;

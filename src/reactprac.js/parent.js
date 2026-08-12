@@ -18,7 +18,7 @@ function Parent()
       {
         users.map(
          (u)=> {
-         return <User key={u.Id} Id={u.Id} name={u.name} age={u.age}/>
+         return <User key={u.Id} Id={u.Id} name={u.name} age={u.age}>Chandu</User>
          }
        )
       }
