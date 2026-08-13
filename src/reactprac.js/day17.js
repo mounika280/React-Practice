@@ -77,8 +77,7 @@ class State extends React.Component
                     price:p
                 }, ()=>{
                   console.log(this.state)})
-            
-                    
+             
     }
 }
 export default State
