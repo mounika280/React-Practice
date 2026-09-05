@@ -47,37 +47,37 @@
 
 
 
-import React from 'react'
-class State extends React.Component
-{ 
-         state= {
-         product:'samsung',
-         price:15000
-        }
-        constructor(){
-            super();
-            this.updatePrice=this.updatePrice.bind(this)
-        }
-    render(){
-        return(
-            <>
-            <h1>Product:{this.state.product}</h1>
-            <p>Price:{this.state.price}</p>
+// import React from 'react'
+// class State extends React.Component
+// { 
+//          state= {
+//          product:'samsung',
+//          price:15000
+//         }
+//         constructor(){
+//             super();
+//             this.updatePrice=this.updatePrice.bind(this)
+//         }
+//     render(){
+//         return(
+//             <>
+//             <h1>Product:{this.state.product}</h1>
+//             <p>Price:{this.state.price}</p>
 
-            <input id='price' type='number'/>
-            <button onClick={this.updatePrice}>Change</button>
-            </>
-        )
-    }
+//             <input id='price' type='number'/>
+//             <button onClick={this.updatePrice}>Change</button>
+//             </>
+//         )
+//     }
 
-    updatePrice(){
+//     updatePrice(){
 
-        let p=document.getElementById('price').value;
-                this.setState({
-                    price:p
-                }, ()=>{
-                  console.log(this.state)})
+//         let p=document.getElementById('price').value;
+//                 this.setState({
+//                     price:p
+//                 }, ()=>{
+//                   console.log(this.state)})
              
-    }
-}
-export default State
+//     }
+// }
+// export default State

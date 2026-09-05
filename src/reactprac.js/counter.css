@@ -1,0 +1,29 @@
+.wraper{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:10px;
+    margin-top:20px;
+}
+.counter{
+    font-size:20px;
+}
+
+.wraper button{
+    border:none;
+    outline:none;
+    padding: 10px 15px;
+    font-size:22px;
+    border-radius:4px;
+    color:white;
+    cursor:pointer;
+}
+button:disabled{
+    opacity:0.6;
+}
+button.plus{
+    background-color:blue;
+}
+button.minus{
+    background-color:red;
+}

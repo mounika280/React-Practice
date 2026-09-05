@@ -38,13 +38,13 @@
 
 //anonymus fun
 
- let Fru= function()
- {
-    return(
-        <div>
-        <h1>APPLE</h1>
-        <p>Banana</p>
-        </div>
-    )
- }
-export default Fru
+//  let Fru= function()
+//  {
+//     return(
+//         <div>
+//         <h1>APPLE</h1>
+//         <p>Banana</p>
+//         </div>
+//     )
+//  }
+// export default Fru

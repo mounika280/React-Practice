@@ -60,17 +60,17 @@
  
 
 
-function Event(){
-    function displayMessage(num,e)
-    {
-        // console.log(e.target)//to know on where the event happened
-        console.dir(e.target)//button will come in object form
-        alert("button clicked "+num)//if we use , that means it take as arguments show error
-    }
-    return(
-        <input type='text'  onKeyUp={(e)=>{
-            displayMessage(10,e)
-        }}/>
-    )
-}
-export default Event
+// function Event(){
+//     function displayMessage(num,e)
+//     {
+//         // console.log(e.target)//to know on where the event happened
+//         console.dir(e.target)//button will come in object form
+//         alert("button clicked "+num)//if we use , that means it take as arguments show error
+//     }
+//     return(
+//         <input type='text'  onKeyUp={(e)=>{
+//             displayMessage(10,e)
+//         }}/>
+//     )
+// }
+// export default Event

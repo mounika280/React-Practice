@@ -13,15 +13,15 @@
 
 
 
-function Header()
-{
-    let Menu =['Home','About']
-    return(
-        <ul>
-            <li>{Menu[0]}</li>
-            <li>{Menu[1]}</li>
-        </ul>
+// function Header()
+// {
+//     let Menu =['Home','About']
+//     return(
+//         <ul>
+//             <li>{Menu[0]}</li>
+//             <li>{Menu[1]}</li>
+//         </ul>
 
-    )
-}
-export default Header
+//     )
+// }
+// export default Header

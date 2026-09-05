@@ -21,24 +21,24 @@
 //     )
 // }
 
-import React from 'react'
-function Cat(){
-    return(
-        <div style={{'display':'flex','gap':20}}>
-        <FlexItems/>
-        </div>
-    )
+// import React from 'react'
+// function Cat(){
+//     return(
+//         <div style={{'display':'flex','gap':20}}>
+//         <FlexItems/>
+//         </div>
+//     )
     
-}
+// }
 
 
-function FlexItems(){
-    return(
-        <>
-            <div>This is blueberry</div>
-            <div>This is strawberry</div>
-            <div>This is cherry</div>
-        </>
-    )
-}
-export default Cat
+// function FlexItems(){
+//     return(
+//         <>
+//             <div>This is blueberry</div>
+//             <div>This is strawberry</div>
+//             <div>This is cherry</div>
+//         </>
+//     )
+// }
+// export default Cat

@@ -1,5 +1,5 @@
 //import logo from './logo.svg';
-import './App.css';
+// import './App.css';
 //import { c } from './sample.js';
 //import Day1 from './Day1.js';
 //import Day1a from './reactprac.js/Day1a.js';
@@ -34,10 +34,33 @@ import './App.css';
 // import Event from './reactprac.js/event.js'
 // import State from './reactprac.js/day16.js'
 // import State from './reactprac.js/day17.js'
-import State from './reactprac.js/day18.js'
+// import State from './reactprac.js/day18.js'
+// import Color from './reactprac.js/day19.js'
+// function App() {
+// return(
+// <>
+// <Color/>
+// </>
+//     )
+// }
+// export default App;
+
+// import Card from './task.js/task1card'
+// function App() {
+// return(
+// <Card/>
+//     )
+// }
+// export default App;
+
+// import Card from './task.js/task1parent.js'
+// import Main from './task.js/task2.productcard.js'
+// import Studenlist from'./task.js/task4.js'
+// import Food from'./task.js/task5.js'
+import Counter from'./task.js/task6.js'
 function App() {
-  return(
-    <State/>
+return(
+<Counter/>
     )
 }
 export default App;

@@ -11,17 +11,17 @@
 
 
 
-import React from "react";
+// import React from "react";
 
-class User extends React.Component {
-  render() {
-    return (
-      <>
-        <h1>Name: {this.props.name}</h1>
-        <h2>Age: {this.props.age}</h2>
-      </>
-    );
-  }
-}
+// class User extends React.Component {
+//   render() {
+//     return (
+//       <>
+//         <h1>Name: {this.props.name}</h1>
+//         <h2>Age: {this.props.age}</h2>
+//       </>
+//     );
+//   }
+// }
 
-export default User;
+// export default User;

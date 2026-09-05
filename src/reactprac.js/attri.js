@@ -63,11 +63,11 @@
 
 // export default Car;
 
-function Car(){
-let name="renu"
-return(<div>
-    {name}
-</div>
-)
-}
-export default Car
+// function Car(){
+// let name="renu"
+// return(<div>
+//     {name}
+// </div>
+// )
+// }
+// export default Car

@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+}
+.productimage {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+.products {
+    display: flex;
+    gap: 30px;
+}
+.card {
+    border: 1px solid black;
+    padding: 15px;
+}
