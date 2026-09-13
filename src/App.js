@@ -56,11 +56,15 @@
 // import Card from './task.js/task1parent.js'
 // import Main from './task.js/task2.productcard.js'
 // import Studenlist from'./task.js/task4.js'
-// import Food from'./task.js/task5.js'
-import Counter from'./task.js/task6.js'
+// // import Food from'./task.js/task5.js'
+// import Counter from'./task.js/task6.js'
+
+// import Color from'./task.js/task7.js'
+// import StudentDetails from'./task.js/task8.js'
+import ProductList from'./task.js/task9.js'
 function App() {
 return(
-<Counter/>
+<ProductList/>
     )
 }
 export default App;
